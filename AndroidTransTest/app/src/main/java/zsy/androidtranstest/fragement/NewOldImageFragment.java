@@ -91,9 +91,8 @@ public class NewOldImageFragment extends Fragment {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),oldImagePath+" "+newImagePath,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), oldImagePath + " " + newImagePath, Toast.LENGTH_SHORT).show();
                 submitUploadFile();
-
 
 
             }
@@ -105,45 +104,50 @@ public class NewOldImageFragment extends Fragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Uri uri = data.getData();
-        ContentResolver cr = getActivity().getContentResolver();
-        Cursor c = cr.query(uri, null, null, null, null);
-        c.moveToFirst();
         if (resultCode == Activity.RESULT_OK) {
+            Uri uri = data.getData();
+            ContentResolver cr = getActivity().getContentResolver();
+            Cursor c = cr.query(uri, null, null, null, null);
+            c.moveToFirst();
             switch (requestCode) {
                 case 1:
                     //这是获取的图片保存在sdcard中的位置
                     oldImagePath = c.getString(c.getColumnIndex("_data"));
-                    Uri imageUri = Uri.fromFile(new File(oldImagePath));
-                    Bitmap bitmap = null;
-                    try {
-                        bitmap = MediaStore.Images.Media.getBitmap(getActivity().getContentResolver(), imageUri);
+                    if(oldImagePath != null) {
+                        Uri imageUri = Uri.fromFile(new File(oldImagePath));
+                        Bitmap bitmap = null;
+                        try {
+                            bitmap = MediaStore.Images.Media.getBitmap(getActivity().getContentResolver(), imageUri);
 //                Log.v("bitmap in", "" + (bitmap.getHeight()));
-                    }catch (IOException e){
-                        e.printStackTrace();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        bitmap = ThumbnailUtils.extractThumbnail(bitmap, 200, 150);
+//            Log.v("bitmap out", "" + (bitmap.getHeight()));
+                        oldImage.setImageBitmap(bitmap);
                     }
 
-                    bitmap = ThumbnailUtils.extractThumbnail(bitmap, 200, 150);
-//            Log.v("bitmap out", "" + (bitmap.getHeight()));
-                    oldImage.setImageBitmap(bitmap);
 
                     break;
                 case 2:
                     //这是获取的图片保存在sdcard中的位置
                     newImagePath = c.getString(c.getColumnIndex("_data"));
 
-                    imageUri = Uri.fromFile(new File(newImagePath));
-                    bitmap = null;
-                    try {
-                        bitmap = MediaStore.Images.Media.getBitmap(getActivity().getContentResolver(), imageUri);
+                    if(newImagePath != null) {
+                        Uri imageUri = Uri.fromFile(new File(newImagePath));
+                        Bitmap bitmap = null;
+                        try {
+                            bitmap = MediaStore.Images.Media.getBitmap(getActivity().getContentResolver(), imageUri);
 //                Log.v("bitmap in", "" + (bitmap.getHeight()));
-                    }catch (IOException e){
-                        e.printStackTrace();
-                    }
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
 
-                    bitmap = ThumbnailUtils.extractThumbnail(bitmap, 200, 150);
+                        bitmap = ThumbnailUtils.extractThumbnail(bitmap, 200, 150);
 //            Log.v("bitmap out", "" + (bitmap.getHeight()));
-                    newImage.setImageBitmap(bitmap);
+                        newImage.setImageBitmap(bitmap);
+                    }
 
                     break;
                 default:
