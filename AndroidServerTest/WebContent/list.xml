@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<contacts>  
+  
+    <contact id="1">  
+        <name>zsy1</name>  
+        <image src="http://192.168.31.167:8080/AndroidServerTest/images/ll.jpg" />  
+    </contact>  
+    <contact id="2">  
+        <name>zsy2</name>  
+        <image src="http://192.168.31.167:8080/AndroidServerTest/images/ll1.jpg" />  
+    </contact>  
+<!--     <contact id="3">  
+        <name>青蛙3</name>  
+        <image src="http://localhost:8080/Test/images/3.gif" />  
+    </contact>  
+    <contact id="4">  
+        <name>青蛙4</name>  
+        <image src="http://localhost:8080/Test/images/4.gif" />  
+    </contact>   -->
+    <!-- <contact id="5">  
+        <name>青蛙5</name>  
+        <image src="http://localhost:8080/Test/images/5.gif" />  
+    </contact>  
+    <contact id="6">  
+        <name>青蛙6</name>  
+        <image src="http://localhost:8080/Test/images/6.gif" />  
+    </contact>  
+    <contact id="7">  
+        <name>青蛙7</name>  
+        <image src="http://localhost:8080/Test/images/7.gif" />  
+    </contact>  
+    <contact id="8">  
+        <name>青蛙8</name>  
+        <image src="http://localhost:8080/Test/images/8.gif" />  
+    </contact>  
+    <contact id="9">  
+        <name>青蛙9</name>  
+        <image src="http://localhost:8080/Test/images/9.gif" />  
+    </contact>  
+    <contact id="10">  
+        <name>青蛙10</name>  
+        <image src="http://localhost:8080/Test/images/10.gif" />  
+    </contact>  
+    <contact id="11">  
+        <name>青蛙11</name>  
+        <image src="http://localhost:8080/Test/images/11.gif" />  
+    </contact>  
+    <contact id="12">  
+        <name>青蛙12</name>  
+        <image src="http://localhost:8080/Test/images/12.gif" />  
+    </contact>  
+    <contact id="13">  
+        <name>青蛙13</name>  
+        <image src="http://localhost:8080/Test/images/13.gif" />  
+    </contact>  
+    <contact id="14">  
+        <name>青蛙14</name>  
+        <image src="http://localhost:8080/Test/images/14.gif" />  
+    </contact>  
+    <contact id="15">  
+        <name>青蛙15</name>  
+        <image src="http://192.192.8.233:8080/Test/images/15.gif" />  
+    </contact>  
+    <contact id="16">  
+        <name>青蛙16</name>  
+        <image src="http://192.192.8.233:8080/Test/images/16.gif" />  
+    </contact>  
+    <contact id="17">  
+        <name>青蛙17</name>  
+        <image src="http://192.192.8.233:8080/Test/images/17.gif" />  
+    </contact>  
+    <contact id="18">  
+        <name>青蛙18</name>  
+        <image src="http://192.192.8.233:8080/Test/images/18.gif" />  
+    </contact>   -->
+  
+</contacts> 

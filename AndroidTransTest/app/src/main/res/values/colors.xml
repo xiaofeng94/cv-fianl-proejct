@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#000</color>
+    <color name="tran_black">#999999</color>
+    <color name="main_bc_color">#384552</color>
+
+    <color name="yellow">#FFEC8B</color>
+    <color name="red">#FF6A6A</color>
+    <color name="cyan">#AEEEEE</color>
+    <color name="magenta">#B23AEE</color>
+    <color name="green">#B3EE3A</color>
+    <color name="blue">#4876FF</color>
+</resources>

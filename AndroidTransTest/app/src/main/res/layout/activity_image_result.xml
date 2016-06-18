@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/result_titile"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/ib_origin_image"
+                    android:src="@drawable/bt_origin"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/ib_sepia"
+                    android:src="@drawable/bt_spie"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/ib_gray"
+                    android:src="@drawable/bt_gray"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/ib_blur"
+                    android:src="@drawable/bt_vague"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/ib_cartton"
+                    android:src="@drawable/bt_cartoon"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/ib_sketch" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView2"
+                android:layout_marginTop="10dp">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollView2" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_result"
+                        android:src="@drawable/stitching_test"/>
+                </ScrollView>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView3"
+                android:layout_marginTop="10dp" >
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollView3" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_result_origin" />
+                </ScrollView>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drop"
+            android:id="@+id/bt_drop"
+            android:layout_weight="1"
+            android:background="@color/red"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/bt_save"
+            android:layout_weight="1"
+            android:background="@color/cyan"/>
+    </LinearLayout>
+
+</LinearLayout>
