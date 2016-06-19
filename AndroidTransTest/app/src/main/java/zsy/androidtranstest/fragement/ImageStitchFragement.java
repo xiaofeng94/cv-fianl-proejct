@@ -118,8 +118,7 @@ public class ImageStitchFragement extends Fragment {
                 SwipeMenuItem deleteItem = new SwipeMenuItem(
                         getActivity());
                 // set item background
-                deleteItem.setBackground(new ColorDrawable(Color.rgb(0xF9,
-                        0x3F, 0x25)));
+                deleteItem.setBackground(R.color.grey);
                 // set item width
                 deleteItem.setWidth(dp2px(90));
                 // set a icon

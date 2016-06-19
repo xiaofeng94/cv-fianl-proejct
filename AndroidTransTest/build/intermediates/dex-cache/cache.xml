@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-d9775da4976a4cd130c8e199a40bf3ca8284102a.jar" />
-    </item>
-    <item
-        jar="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-69e7d7b2cdc57ac183e2e1227baf3757d742cf96.jar" />
-    </item>
-    <item
-        jar="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-b5cf1bd9fadf7c639d0756d75b9c2f8220c1857f.jar" />
-    </item>
-    <item
-        jar="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/SwipeMenuListView/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="fc98532c33c993b2e4c6d691a3ac1ac2fbfdab0a">
-        <dex dex="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-c761650664ccbb7e6e2722af75b3d98b3608a0a7.jar" />
-    </item>
-    <item
-        jar="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/exploded-aar/jp.co.cyberagent.android.gpuimage/gpuimage-library/1.4.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="eb9f1cef6b29492df701111c555908cb53dece35">
-        <dex dex="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-64f1bed4a483970de3c3371ca117d330e3f6aa63.jar" />
+        <dex dex="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-55a40b19c278dd4b1ede52b991739922d2d3390c.jar" />
     </item>
     <item
         jar="/Users/zsy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="/Users/zsy/Documents/android/CV-FinalProject/AndroidTransTest/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-1987fb08b157e5e52e11a43f629c1a183c8ad943.jar" />
+        <dex dex="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-1987fb08b157e5e52e11a43f629c1a183c8ad943.jar" />
+    </item>
+    <item
+        jar="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/SwipeMenuListView/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5d693c468b200197cbd255df837166d4c33e52c">
+        <dex dex="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-63f4ddd81ee45911c228961a0f72aa024e9ac71b.jar" />
+    </item>
+    <item
+        jar="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/exploded-aar/jp.co.cyberagent.android.gpuimage/gpuimage-library/1.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9f1cef6b29492df701111c555908cb53dece35">
+        <dex dex="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-8a886bdd3221b1e78df49bcf29e8147c315ad8fa.jar" />
+    </item>
+    <item
+        jar="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-2d855476b09e3c9ce30ba51f1da1a286ffe96332.jar" />
+    </item>
+    <item
+        jar="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/zsy/Documents/android/cv-project-arrange/AndroidTransTest/app/build/intermediates/pre-dexed/debug/classes-820bd18041fd8fb8d0721c52af102a751e709010.jar" />
     </item>
 
 </items>
